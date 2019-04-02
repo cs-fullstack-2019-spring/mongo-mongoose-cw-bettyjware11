@@ -1,3 +1,8 @@
+## POINTS: 1.5
+## KEY: Good Job overall, but check your routes against the README.
+
+The 'animal/operation portion of the endpoints were not to be variable so no need to parse them out of route. e.g. Instead of something like this, '/zoowebapi/:animal/:del/:animal_ID' should be '/zoowebapi/animal/del/:animal_ID'
+
 # Mongo/Mongoose Graded Classwork
 
 ### Exercise 1: Create a Web API for ZOO Animals
